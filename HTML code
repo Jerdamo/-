@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>My webpage</title>
+	</head>
+	<body>
+		<h2><span>Introduction</span></h2>
+		<p style="background-color:red; color:black; padding:5px">Hello, <br />My name is Daniël-Moráh Meijer, I am 25 years old and I am looking forward to show you my new abilities in building a webpage</p>
+		<br/>
+		<p style="background-color:orange; color:black; padding:5px">In this website I will show you what i have learned by:</p>
+		<ul style="background-color:yellow; color:black; padding:5px">
+		    <li>Making an unordered list</li>
+		    <li>Using different background colors by means of inline styling</li>
+		    <li>Granting access to my CV by means of a password</li>
+		    <li>Creating a contact form</li>
+		    <li>Show you how annoying it is to have an element fixed in front of your text and that its only mildly distracting if you have it behind other figures</li>
+		</ul>
+		<h4 style="background-color:lightgreen; color:black; padding:5px">Password</h4>
+		<form  action="Curriculum vitae.docx" method="POST">
+		    <input type="text" name="Daniël-Moráh" /><br/>
+		    <input type="password" name="I learn at Sololearn" /><br/>
+		    <input type="submit" Value="Login" />
+		    <!--Needs Curriclulum vitae.docx as an uploaded file-->
+		</form>
+		<h4 style="background-color:green; color:black; padding:5px">Contact form</h4>
+		<form>
+		    <input name="Daniël-Moráh" type="text" /><br/>
+		    <input name="daniel-morah@hotmail.nl" type="email" /><br/>
+		    <textarea name ="message"></textarea><br/>
+		    <input type="submit" Value="Send" class="submit" />
+		    <!--Needs PHP-->
+		</form>
+		<h1 class="fixed">Annoying isn't it?</h1>
+		<h3 class="fixed2">Hello</h3>
+	</body>
+</html>
